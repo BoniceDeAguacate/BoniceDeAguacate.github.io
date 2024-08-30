@@ -19,7 +19,7 @@ body{
     max-width: 1000px;
     min-height: 1000px;
     background: white;
-    margin: 50px;
+    margin: 48px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
@@ -63,18 +63,18 @@ body{
 .contactInfo ul li{
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin: 8px 0;
     /* cursor: pointer; */
 }
 
 .contactInfo ul li .icon{
     display: inline-block;
     width: 30px;
-    font-size: 18px;
+    font-size: 16px;
     color:#03a9f4;
 }
 .contactInfo ul li .text{
-    font-size: 14px; 
+    font-size: 12px; 
 }
 
 .contactInfo ul li span{
@@ -104,7 +104,7 @@ body{
     height: 4px;
     background-color: #f0f0f0 ;
     display: block;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .contactInfo.language .percent div{
     position: absolute;
@@ -119,7 +119,7 @@ body{
     padding: 40px;
 }
 .about{
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 .about:last-child{
     margin-bottom: 0;
@@ -134,7 +134,7 @@ body{
     font-size: 16px;
 }
 .skills .box{
-    padding: 6px;
+    padding: 4px;
     position: relative;
     width: 100%;
     display: grid;
@@ -144,7 +144,7 @@ body{
 }
 .skills .box h4{
    text-transform: uppercase;
-   color: #848c99;
+   color: #121213;
    font-weight: 500;
 }
 .skills .box .percent{
@@ -159,6 +159,27 @@ body{
    left: 0;
    height: 100%;
    background: #03a9f4;
+}
+
+.proyects .box{
+    padding: 4px;
+    position: relative;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyects .box h4{
+    text-transform: uppercase;
+   color: #121213;
+   font-weight: 500;
+}
+
+.proyects .box h5{
+    
+   color: #121213;
+   font-weight: 500;
 }
 
 @media (max-width: 1000px){
